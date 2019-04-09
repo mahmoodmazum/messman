@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context=".fixed_info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/ads"></com.google.android.gms.ads.AdView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:text="বাসা ভাড়া"
+            android:textColor="#8cd3ec"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/edit_round"
+            android:textColorHint="#8cd3ec">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/basavara"
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="বাসা ভাড়া প্রবেশ করুন"
+                android:inputType="numberSigned"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:text="পানি/বিদ্যুৎ বিল"
+            android:textColor="#8cd3ec"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/edit_round"
+            android:textColorHint="#8cd3ec">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/panibil"
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="পানি/বিদ্যুৎ বিল প্রবেশ করুন"
+                android:inputType="numberSigned"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:text="গ্যাস বিল"
+            android:textColor="#8cd3ec"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/edit_round"
+            android:textColorHint="#8cd3ec">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/gasbil"
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="গ্যাস বিল প্রবেশ করুন"
+                android:inputType="numberSigned"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:text="নেট বিল"
+            android:textColor="#8cd3ec"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/edit_round"
+            android:textColorHint="#8cd3ec">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/netbil"
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="নেট বিল প্রবেশ করুন"
+                android:inputType="numberSigned"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:text="বুয়া বিল"
+            android:textColor="#8cd3ec"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/edit_round"
+            android:textColorHint="#8cd3ec">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/buabil"
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="বুয়া বিল প্রবেশ করুন"
+                android:inputType="numberSigned"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:text="মেম্বার সংখ্যা"
+            android:textColor="#8cd3ec"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/edit_round"
+            android:textColorHint="#8cd3ec">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/memberno"
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="মেম্বার সংখ্যা প্রবেশ করুন"
+                android:inputType="numberSigned"
+                android:maxLines="1"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="**কোন বিল না থাকলে ০(শূণ্য) প্রবেশ করুন"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/fixtotto"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_round"
+            android:text="সাবমিট করুন"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fixtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>
