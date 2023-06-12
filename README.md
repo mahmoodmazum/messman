@@ -6,3 +6,5 @@ the sub contitent who reside in mess. So many cost and calculation involving the
 
 
 This application has been developed by using android studio. 
+
+link: https://play.google.com/store/apps/details?id=com.MessMantech.mahmood.messman2&hl=en&gl=US
